@@ -84,7 +84,13 @@ ul {
 
 a {
   text-decoration: none;
+  margin-right: var(--mb-0-5);
 }
+
+a:last-child {
+  margin-right: 0;
+}
+
 img {
   max-width: 100%;
   height: auto;
